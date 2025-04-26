@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Tamaño dinamico automatico del textarea dependiendo del contenido */
+            .div_1{ 
+                width: 100%;
+                height: 250px;
+                background-color: rgb(131, 131, 209);
+                display: flex;
+                justify-content: center; /* Centrado verticalmente */
+                align-items: center; /* Centrado horizontalmente */
+            }
+
+            .div_2{ 
+                width: 100%;
+                height: 250px;
+                background-color: rgb(43, 43, 119);
+                display: grid;
+                place-items: center;
+            }
+
+            .div_3{ 
+                width: 100%;
+                height: 250px;
+                background-color: rgb(83, 83, 114);
+                align-content: center; /* Alineado vertical */
+                text-align: center; /* Alineado horizontal - Solo sirve con texto */
+            }
+            
+            /* Solo vertical */
+            .div_4{ 
+                width: 100%;
+                height: 250px;
+                background-color: rgb(37, 37, 136);
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+
+            .div_within {
+                background-color: red;
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div_1">
+            <div class="div_within"></div>
+        </div>
+        <br>
+        <div class="div_2">
+            <div class="div_within"></div>
+        </div>
+        <br>
+        <div class="div_3">
+            <div class="div_within"></div>
+            <a>Texto</a>
+        </div>
+        <br>
+        <div class="div_4">
+            <div class="div_within"></div>
+        </div>
+    </body>
+</html>

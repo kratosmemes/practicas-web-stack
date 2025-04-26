@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div_boxes_base {
+                width: 201px;
+                height: 37px;
+                background-color: #4b4949;
+                padding: 2px;
+            }
+
+            .div_title_base {
+                width: 205px;
+                display: flex;
+                justify-content: center;
+                background-color: rgb(51, 138, 133);
+                color: white;
+            }
+
+            .div_start {
+                display: flex;
+                justify-content: start;
+            }
+
+            .div_center {
+                display: flex;
+                justify-content: center
+            }
+
+            .div_end {
+                display: flex;
+                justify-content: end;
+            }
+
+
+            .div_space_around {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .div_space_between {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .div_space_evenly {
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .each_div {
+                width: 35px;
+                height: 35px;
+                margin: 1px; 
+                background-color: rgb(243, 190, 44);
+            }
+        </style>
+
+        <style>
+
+            .div_each_row {
+                display: flex; 
+                justify-content: space-evenly;
+            }
+
+            .div_boxes_base_align_content {
+                width: 201px;
+                height: 150px;
+                background-color: #4b4949;
+                padding: 2px;
+            }
+
+            .div_title_base_align_content {
+                width: 205px;
+                display: flex;
+                justify-content: center;
+                background-color: rgb(51, 138, 133);
+                color: white;
+            }
+
+            .div_start_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: start;
+            }
+
+            .div_center_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: flex-end;
+            }
+
+            .div_end_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: end;
+            }
+
+            .div_space_around_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-around;
+            }
+
+            .div_space_between_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+            }
+
+            .div_space_evenly_align_content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-evenly;
+            }
+
+            .each_div_align_content {
+                width: 35px;
+                height: 35px;
+                margin: 1px; 
+                background-color: rgb(243, 190, 44);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div_each_row">
+            <div>            
+                <div class="div_title_base">
+                    <a>Start</a>
+                </div>       
+                <div class="div_boxes_base div_start">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base">
+                    <a>Center</a>
+                </div>       
+                <div class="div_boxes_base div_center">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>             
+                <div class="div_title_base">
+                    <a>End</a>
+                </div>       
+                <div class="div_boxes_base div_end">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base">
+                    <a>Space Arround</a>
+                </div>       
+                <div class="div_boxes_base div_space_around">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base">
+                    <a>Space Between</a>
+                </div>       
+                <div class="div_boxes_base div_space_between">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base">
+                    <a>Space Evenly</a>
+                </div>       
+                <div class="div_boxes_base div_space_evenly">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div_each_row">
+            <div>            
+                <div class="div_title_base_align_content">
+                    <a>Start</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_start_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base_align_content">
+                    <a>Center</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_center_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>             
+                <div class="div_title_base_align_content">
+                    <a>End</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_end_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base_align_content">
+                    <a>Space Arround</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_space_around_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base_align_content">
+                    <a>Space Between</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_space_between_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+            <div>            
+                <div class="div_title_base_align_content">
+                    <a>Space Evenly</a>
+                </div>       
+                <div class="div_boxes_base_align_content div_space_evenly_align_content">
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                    <div class="each_div"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
